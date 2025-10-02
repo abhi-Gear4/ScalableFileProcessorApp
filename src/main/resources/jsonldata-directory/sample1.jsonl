@@ -1,0 +1,10 @@
+{"first_name": "John", "middle_name": "Alexander", "last_name": "Smith", "date_of_birth": "1985-04-12", "address": {"street": "123 Main St", "city": "Springfield", "state": "IL", "postal_code": "62704", "country": "USA"}}
+{"first_name": "Priya", "middle_name": null, "last_name": "Nair", "date_of_birth": "1990-08-25", "address": {"street": "45 MG Road", "city": "Bengaluru", "state": "Karnataka", "postal_code": "560001", "country": "India"}}
+{"first_name": "Carlos", "middle_name": "Miguel", "last_name": "Lopez", "date_of_birth": "1978-12-05", "address": {"street": "789 Avenida Central", "city": "Madrid", "state": null, "postal_code": "28013", "country": "Spain"}}
+{"first_name": "Aisha", "middle_name": "Fatima", "last_name": "Khan", "date_of_birth": "1995-02-14", "address": {"street": "12 Palm Street", "city": "Dubai", "state": "Dubai", "postal_code": "00000", "country": "UAE"}}
+{"first_name": "Michael", "middle_name": "James", "last_name": "O'Connor", "date_of_birth": "1982-07-30", "address": {"street": "456 Elm Street", "city": "Boston", "state": "MA", "postal_code": "02118", "country": "USA"}}
+{"first_name":"Noah","last_name":"Brown","date_of_birth":"1981-12-31","address":{"street":"101 Market St","city":"San Francisco","state":"CA","postal_code":"94103","country":"USA"}}
+{"first_name":"Olivia","last_name":"Green","date_of_birth":"1995-06-28","address":{"street":"202 Pine St","city":"San Francisco","state":"CA","postal_code":"94104","country":"USA"}}
+{"first_name":"Liam","middle_name":"G","last_name":"White","date_of_birth":"1989-09-09","address":{"street":"303 Cedar St","city":"Oakland","state":"CA","postal_code":"94601","country":"USA"}}
+{"first_name":"Emma","last_name":"","date_of_birth":"","address":{"street":"404 Walnut St","city":"Oakland","state":"CA","postal_code":"94602","country":"USA"}}
+{"date_of_birth":"1990-11-10","address":{"street":"505 Chestnut St","city":"Oakland","state":"CA","postal_code":"","country":"USA"}}

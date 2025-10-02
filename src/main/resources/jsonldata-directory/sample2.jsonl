@@ -1,0 +1,10 @@
+{"first_name":"John","middle_name":"A","last_name":"Smith","date_of_birth":"1985-04-12","address":{"street":"123 Main St","city":"Springfield","state":"IL","postal_code":"62704","country":"USA"}}
+{"first_name":"Jane","middle_name":null,"last_name":"Doe","date_of_birth":"1990-09-10","address":{"street":"456 Elm St","city":"Springfield","state":"IL","postal_code":"62705","country":"USA"}}
+{"first_name":"Sam","middle_name":"B","last_name":"O'Neil","date_of_birth":"1975-12-01","address":{"street":"789 Oak St","city":"Shelbyville","state":"IL","postal_code":"62706","country":"USA"}}
+{"first_name":"Anna","last_name":"Lee","date_of_birth":"invalid-date","address":{"street":"101 Maple St","city":"Springfield","state":"IL","postal_code":"62707","country":"USA"}}
+{"first_name":"Mike","last_name":null,"date_of_birth":"1980-07-07","address":{"street":"202 Pine St","city":"Shelbyville","state":"IL","postal_code":"62708","country":"USA"}}
+{"first_name":"Eva","middle_name":"C","last_name":"Nguyen","date_of_birth":"1992-02-29","address":{"street":"303 Birch St","city":"Springfield","state":"IL","postal_code":"","country":"USA"}}
+{"first_name":"Tom","last_name":"Brown","date_of_birth":"1988-03-15","address":{"street":"404 Cedar St","city":"Shelbyville","state":"IL","postal_code":"62709","country":"USA"}}
+{"first_name":"Lucy","last_name":"Davis","date_of_birth":"1995-11-25","address":{"street":"505 Walnut St","city":"Springfield","state":"IL","postal_code":"62710","country":"USA"}}
+{"first_name":"Kevin","last_name":"White","date_of_birth":"1984-06-12","address":{"street":"606 Chestnut St","city":"Springfield","state":"IL","postal_code":"62711","country":"USA"}}
+{"last_name":"Taylor","date_of_birth":"1991-08-08","address":{"street":"707 Spruce St","city":"Shelbyville","state":"IL","postal_code":"62712","country":"USA"}}

@@ -1,0 +1,10 @@
+{"first_name":"Daniel","middle_name":"R","last_name":"Phillips","date_of_birth":"1982-03-10","address":{"street":"111 River Rd","city":"Miami","state":"FL","postal_code":"33101","country":"USA"}}
+{"first_name":"Ella","last_name":"Howard","date_of_birth":"1990-10-10","address":{"street":"222 Bay St","city":"Miami","state":"FL","postal_code":"","country":"USA"}}
+{"first_name":"Logan","last_name":"Ward","date_of_birth":"invalid","address":{"street":"333 Ocean Dr","city":"Miami","state":"FL","postal_code":"33139","country":"USA"}}
+{"first_name":"Grace","middle_name":"M","last_name":"Long","date_of_birth":"1994-05-05","address":{"street":"","city":"Orlando","state":"FL","postal_code":"32801","country":"USA"}}
+{"first_name":"Jacob","last_name":null,"date_of_birth":"1986-02-02","address":{"street":"555 Palm St","city":"Orlando","state":"FL","postal_code":"32802","country":"USA"}}
+{"first_name":"Lily","last_name":"Hall","date_of_birth":"1991-04-04","address":{"street":"666 Pine St","city":"Orlando","state":"FL","postal_code":"32803","country":"USA"}}
+{"first_name":"Samuel","last_name":"Young","date_of_birth":"1993-06-06","address":{"street":"777 Maple St","city":"Tampa","state":"FL","postal_code":"33601","country":"USA"}}
+{"first_name":"Zoe","last_name":"Scott","date_of_birth":"1996-08-08","address":{"street":"888 Oak St","city":"Tampa","state":"FL","postal_code":"33602","country":"USA"}}
+{"first_name":"Matthew","last_name":"Wright","date_of_birth":"invalidDate","address":{"street":"999 Elm St","city":"Tampa","state":"FL","postal_code":"33603","country":"USA"}}
+{"last_name":"Roberts","date_of_birth":"1987-09-09","address":{"street":"1010 Cedar St","city":"Tampa","state":"FL","postal_code":"33604","country":"USA"}}

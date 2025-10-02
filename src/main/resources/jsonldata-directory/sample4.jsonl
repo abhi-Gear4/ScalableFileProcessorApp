@@ -1,0 +1,10 @@
+{"first_name":"Evelyn","middle_name":"S","last_name":"Reed","date_of_birth":"1988-06-15","address":{"street":"1212 Birch St","city":"Seattle","state":"WA","postal_code":"98101","country":"USA"}}
+{"first_name":"Jack","last_name":"Cole","date_of_birth":"1991-12-01","address":{"street":"1313 Pine St","city":"Seattle","state":"WA","postal_code":"98102","country":"USA"}}
+{"first_name":"Victoria","last_name":"Cruz","date_of_birth":"invalidDate","address":{"street":"1414 Walnut St","city":"Seattle","state":"WA","postal_code":"98103","country":"USA"}}
+{"first_name":"Henry","middle_name":"L","last_name":"Boyd","date_of_birth":"1985-07-07","address":{"street":"1515 Spruce St","city":"Tacoma","state":"WA","postal_code":"98401","country":"USA"}}
+{"first_name":"Scarlett","last_name":"Bennett","date_of_birth":"1993-10-10","address":{"street":"1616 Cedar St","city":"Tacoma","state":"WA","postal_code":"98402","country":"USA"}}
+{"first_name":"Isaac","last_name":"Gray","date_of_birth":"1994-09-09","address":{"street":"1717 Chestnut St","city":"Tacoma","state":"WA","postal_code":"","country":"USA"}}
+{"first_name":"Amelia","last_name":"Foster","date_of_birth":"1995-05-05","address":{"street":"1818 Oak St","city":"Tacoma","state":"WA","postal_code":"98403","country":"USA"}}
+{"first_name":"Sebastian","last_name":"Hunter","date_of_birth":"1987-03-03","address":{"street":"1919 Poplar St","city":"Tacoma","state":"WA","postal_code":"98404","country":"USA"}}
+{"first_name":"Chloe","last_name":"Wells","date_of_birth":"1990-07-07","address":{"street":"2020 Elm St","city":"Tacoma","state":"WA","postal_code":"98405","country":"USA"}}
+{"first_name":"David","last_name":"Morris","date_of_birth":"1992-11-11","address":{"street":"2121 Maple St","city":"Tacoma","state":"WA","postal_code":"98406","country":"USA"}}
