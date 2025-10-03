@@ -15,14 +15,13 @@ import org.testcontainers.containers.wait.strategy.Wait;
 import org.testcontainers.junit.jupiter.Container;
 import org.testcontainers.junit.jupiter.Testcontainers;
 
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.nio.file.Paths;
+import java.net.URL;
+import java.nio.file.*;
 import java.time.Duration;
+import java.util.Collections;
 import java.util.List;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertTrue;
+import static org.junit.jupiter.api.Assertions.*;
 
 @Import(TestcontainersConfiguration.class)
 @SpringBootTest
@@ -144,20 +143,38 @@ class ScalablefileprocessorApplicationTests {
 
         /**
          * Integration test to verify processing all JSON Lines (.jsonl) files present in the
-         * 'src/main/resources/jsonldata-directory' directory. This test exercises the full
+         * 'jsonldata-directory' resource folder on the classpath. This test exercises the full
          * end-to-end file processing, including validation, batching, and persistence logic.
-         * sample1, sample2. sample3, sample4.jsonl files 10 jsonl content in each file.
+         * The JSONL files (e.g., sample1.jsonl, sample2.jsonl, sample3.jsonl, sample4.jsonl) each
+         * contain 10 JSON lines of data.
+         *
+         * Since the resources are packaged inside the jar or container, the test loads the
+         * resource directory using the classloader to ensure compatibility both in development
+         * and when running from a packaged jar.
          *
          * The expected values for total valid users and total bad data records are derived
-         * from a manual count of the records present in the JSONL files within the directory.
+         * from a manual count of the valid and invalid records present in the JSONL files.
          *
          * - expectedTotalValidUsers = 29  // Number of records with valid mandatory fields
          * - expectedTotalBadData = 11     // Number of records missing mandatory fields or invalid
+         *
          * The test asserts that the total number of User entities saved matches the expected
          * valid user count and that all bad records are correctly persisted as BadData entities.
          */
 
-        Path dir = Paths.get("src/main/resources/jsonldata-directory");
+
+        ClassLoader classLoader = getClass().getClassLoader();
+        URL resourceUrl = classLoader.getResource("jsonldata-directory");
+        assertNotNull(resourceUrl, "Resource directory not found");
+
+        Path dir;
+        try {
+            dir = Paths.get(resourceUrl.toURI());
+        } catch (FileSystemNotFoundException e) {
+            // Resource is inside a jar, so copy files to temp directory
+            FileSystem fileSystem = FileSystems.newFileSystem(resourceUrl.toURI(), Collections.emptyMap());
+            dir = fileSystem.getPath("jsonldata-directory");
+        }
         fileProcessor.processAllFilesInDirectory(dir);
 
         //
